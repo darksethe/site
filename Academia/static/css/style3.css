@@ -1,0 +1,40 @@
+body{
+    background-image: url("/static/img/back.jpg");
+}
+.ha{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.pes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 200px;
+    color: white;
+}
+.pe{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    display: inline;
+    margin-left: 300px;
+    color: white;
+}
+
+.has{
+    font-family: monospace;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+img:hover{
+    transform: scaleX(-1);
+}
+
+div{
+    background-color:gray;
+    margin-left: 200px;
+    color: white;
+
+}

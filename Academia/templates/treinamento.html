@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>formas de treino</title>
+    <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+</head>
+<body>
+    
+    <h1 class="h">skil de treino</h1>
+    <a href="/"> <p style="text-align: end;">voltar</p> </a>
+    <table>
+        <tr>
+            <td><p class="pes">as formas de treinar aqui a varios modos os classicos e os que dao resuntados insanos<br>
+                nao se preucupe a taixa de brutalidade nso treinos nao e tao elevada fazendo com que as pessoas <br>
+                nao sofram tando</p></td>
+            <td><img class="imag" src="{% static 'img/log.jpeg' %}"></td>
+        </tr>
+    </table>
+    <div class="di">
+        <p><a href="#facil">treinamento simples</a></p>
+        <p><a href="#normal">treinamento normal</a></p>
+        <p><a href="#dificil">treinamento dificio</a></p>
+        <p><a href="#forca"> treinamento de força</a> </p>
+        <p><a href="#forca_resistencia">treinamento de força e resistencia</a></p>
+    </div>
+    <section class="sect" id="facil">
+        <h2 class="ha"> treino facil</h2>
+        <p class="pe">o treino normal tem o intuito de fazer como o nome diz<br>
+            treinamento simples de muscalao e resistencia com o foca de definnir o corpo</p>
+        <ul class="lis">
+            <strong>exercicios</strong>
+            <br>
+            <br>
+            <li>2 horas de corrida</li>
+            <li>1 hora de abidominal</li>
+            <li>1 hora de alevantamento de peso</li>
+        </ul>
+    </section>
+    <section class="sect" id="normal">
+        <h2 class="ha">treino normal</h2>
+        <p class="pe">Esse e treinametto tem o intuito<br>
+            de traforma o seu corpo de uma forma que ganhe alem<br>
+            do beneficops padroes tambem demostra um podentical a mais<br>
+            e como usaro exercios</p>
+        <ul class="lis">
+            <strong>exercios</strong>
+            <br>
+            <br>
+            <li>4 horas de corrida </li>
+            <li>2 horas de abidominal </li>
+            <li>2 horas de alevantamento de peso e boxe</li>
+        </ul>
+    </section>
+
+    <section class="sect" id="dificil">
+        <h2 class="ha"> treino dificil</h2>
+        <p class="pe">ESSE treinamento ja e para aqueles que querem ficar fore e fazer algumas copetisoes de fisicuturista <br>
+        ser direcionada para competiçoes ou para se mostras </p>
+        <ul class="lis">
+            <strong>exercicios</strong>
+            <br>
+            <br>
+            <li>4 horas de corrida mais puxando correntes</li>
+            <li>5 hosras de abdominal</li>
+            <li>5 hosras de alevantameto de peso e boxe</li>
+        </ul>
+    </section>
+    <p class="pes">Assima esta os treinametos simples para quem so quer "crecer" nao e o<br>
+        indicado para quem quer trasforma o corpo em uma arma</p>
+    <h1 class="has"> TREINOS INSANOS</h1>
+    <section class="sect" id="forca">
+        <h2 class="ha">Força bruta</h2>
+        <p class="pe">esse treinameto e disignado para fazer,<br>
+           o seu corpo literalmete se trasforma numa arma,<br>
+           capas de matar alguem com um unico soco</p>
+        <ul class="lis">
+            <strong>exercios de força</strong>
+            <br>
+            <br>
+            <li>100 flexoes</li>
+            <li>100 agachamentos</li>
+            <li> 100 abdominais e 10km de corrida</li>
+        </ul>
+    </section>
+    <section class="sect" id="forca_resistencia">
+        <h2 class="ha">força + resistencia</h2>
+        <p class="pe">mesmo que voce ache que o outro treinamento vai ter dar ressitencia,<br>
+            modo a corrida nao e so isso e treinameto vai dar resistencia fisica,<br>
+            capaz de resister melhor ao dano </p>
+        <ul class="lis">
+            <strong>Força + resistencia</strong>
+            <br>
+            <br>
+            <li>100 flexioes simples</li>
+            <li>100 flexios so com uma mao</li>
+            <li>100 flexiaes sustentanto o corpo</li>
+        </ul>
+    </section>
+
+<!--    <ul>-->
+<!--        {% for treino in tipo %}-->
+<!--            <li>-->
+<!--                <div>-->
+<!--                    {{treino.id}} &#45;&#45; {{treino.Nome_do_treinamento}} <br> {{treino.Exerc_1}} <br> {{treino.Exerc_2}}-->
+
+<!--                </div>-->
+<!--        {% endfor %}-->
+<!--    </ul>-->
+</body>
+</html>

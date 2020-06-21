@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assinatura</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style2.css' %}">
+</head>
+<body>
+    <h1 class="has">Mario formas</h1>
+    <table>
+        <tr>
+            <td>
+                <p class="pes">Voce ja viu os tipos de tratamento agora e so escolher qual deseja para seguir<br>
+                a preçoes acessives e tambem pode contratar um personal se assim desejar.
+                </p>
+            </td>
+            <td><img src="{%static 'img/log.jpeg'%}"></td>
+        </tr>
+    </table>
+    <form action="submit" method="POST" class="test">{% csrf_token %}
+        <p> os tipos de treino: <br>
+        Treino facil, Treino normal, Treino Dificil , Treino de força, Treino de força e resistencia</p>
+
+        {{form.as_p}}
+        <button type="submit">salvar</button>
+        <a href="/">
+            <button  type="button"> voltar</button>
+        </a>
+
+    </form>
+</body>
+</html>

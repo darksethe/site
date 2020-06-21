@@ -1,0 +1,33 @@
+body{
+    background-image: url(" /static/img/back.jpg  ");
+}
+.has{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.pes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 200px;
+    text-align: center;
+    color:white;
+}
+
+.test{
+    font-family:fantasy;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+input[type=text]:focus{
+    border: 3px solid #555;
+}
+
+img:hover{
+    transform: scaleX(-1);
+}
